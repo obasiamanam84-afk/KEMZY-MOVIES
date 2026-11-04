@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Cinema Dark Background Tile -->
+    <path
+        android:fillColor="#0D0E15"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Movie Box Outer Chamber -->
+    <path
+        android:pathData="M24,28 C24,21.37 29.37,16 36,16 L72,16 C78.63,16 84,21.37 84,28 L84,80 C84,86.63 78.63,92 72,92 L36,92 C29.37,92 24,86.63 24,80 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="16"
+                android:endX="84"
+                android:endY="92"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#232738" />
+                <item android:offset="1.0" android:color="#12141D" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Amber-Gold Border Trim -->
+    <path
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFC107"
+        android:pathData="M36,16 L72,16 C78.63,16 84,21.37 84,28 L84,80 C84,86.63 78.63,92 72,92 L36,92 C29.37,92 24,86.63 24,80 L24,28 C24,21.37 29.37,16 36,16 Z" />
+
+    <!-- Film Strip Top Slits (Movie Box / Reel) -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M32,24h8v6h-8z M46,24h8v6h-8z M60,24h8v6h-8z M74,24h8v6h-8z" />
+
+    <!-- Center Play Jewel -->
+    <path
+        android:pathData="M46,42 L68,54 L46,66 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="46"
+                android:startY="42"
+                android:endX="68"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE082" />
+                <item android:offset="0.6" android:color="#FFB300" />
+                <item android:offset="1.0" android:color="#FF8F00" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bottom Brand Bar Accent -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M40,78 L68,78 A3,3 0 0,1 71,81 L71,81 A3,3 0 0,1 68,84 L40,84 A3,3 0 0,1 37,81 L37,81 A3,3 0 0,1 40,78 Z" />
+</vector>
